@@ -23,10 +23,10 @@ public class Program {
     public static void main(String[] args) {
 
         Box<Apple> appleBox = new Box<>();
-        appleBox.addFruits(new Apple(3));
+        appleBox.addFruits(new Apple(10));
 
         Box<Orange> orangeBox = new Box<>();
-        orangeBox.addFruits(new Orange(2));
+        orangeBox.addFruits(new Orange(7));
 
         System.out.println(appleBox.getWeight());
         System.out.println(orangeBox.getWeight());
